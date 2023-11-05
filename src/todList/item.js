@@ -5,10 +5,10 @@ export default function Item(props) {
     textDecoration:props.completed?"line-through":"none"
   }
   return (
-    <div   >
+    <div >
           
           <li className="border d-flex justify-content-between align-item-center p-2 m-2">
-            <button className='btn btn-success ' onClick={props.functionStyle}>valid</button>
+            <button className='btn btn-success' onClick={props.functionStyle}>valid</button>
             <div className="p-3" style={styletext}>{props.txt}</div>
            
             <button className="btn btn-danger p-2 h-50" onClick={props.fun}>Supprimer</button>

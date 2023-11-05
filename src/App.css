@@ -1,23 +1,4 @@
  
-
- 
- 
- 
-.li{
-  
-  padding-left: 20px;
-  padding-right: 20px;
-
-}
-li{
-  list-style: none;
-  padding-bottom: 16px;
-  padding-top: 20px;
-  
- 
-  
-}
- 
 .li:hover{
   
     background-color:aliceblue;
@@ -28,3 +9,35 @@ li{
  
 }
 span{color: red;}
+img{
+  width: 400px;
+  height: 250px;
+  border-radius: 10px;
+}
+#btn1{
+  transform: rotate(180deg);
+  width: 30px;
+  height: 30px;
+  position: relative;
+  left: -36px;
+  top: 100px;
+}
+#btn2{
+  width: 30px;
+  height: 30px;
+  position: relative;
+  left: -417px;
+  top: 104px;
+}
+#cont{
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+ 
+
+}
+#hh1{
+  position: relative;
+  left: 200px;
+  top: -100px;
+}
